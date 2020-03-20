@@ -5,8 +5,8 @@ The Bitcoin blockchain — currently 170 GB and growing — contains a massive a
 
 Current tools for blockchain analysis depend on general-purpose databases that provide "ACID" guarantees. But that’s unnecessary for blockchain analysis where the data structures are append-only. We take advantage of this observation in the design of our custom in-memory blockchain database as well as an analysis library. BlockSci’s core infrastructure is written in C++ and optimized for speed. (For example, traversing every transaction input and output on the Bitcoin blockchain takes only **1 second** on our r4.2xlarge EC2 machine.) To make analysis more convenient, we provide Python bindings and a Jupyter notebook interface. 
 
-### Some ideas By JimWong
-
+Some ideas By JimWong
+=====================
 I install it an a 2 GB RAM virtual machine! Running a whole night,and then failed.
 I want to develop a version supporting Win10.
 
